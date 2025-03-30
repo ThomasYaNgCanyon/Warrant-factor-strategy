@@ -1,1 +1,9 @@
-# Warrant-factor-strategy
+# Warrant-factor-strategy  
+data 文件夹：程序处理所需要的数据以及产生的中间数据。  
+result 文件夹：公司框架回测产生的文件。  
+backtest.py ：公司框架回测接口，用于调用进行回测。  
+black_warrant.ipynb ：对黑色板块品种进行测试的程序。仓单因子对黑色板块品种是不适用的。  
+config.py ：参数设置文件。  
+nf_warrant.ipynb ：对有色板块品种进行测试的程序。仓单因子对有色板块品种大部分是适用的。  
+other_warrant.ipynb ：对黄金、白银和原油进行测试的程序。仓单因子对黄金和原油不适用，但是对白银适用。详见仓单因子复现报告。  
+utils.py ：支持性函数。
